@@ -1,0 +1,92 @@
+
+body {
+    background-color: black;
+
+}
+
+h1 {
+    text-align: center;
+    color: aqua;
+    text-transform: capitalize;
+    text-shadow: -13px 5px 5px yellow;   
+    font-size: 3em;
+}
+
+p {
+    color: cornsilk;
+    
+    font-style: italic;
+    font-size: 2em;
+    text-align: center;
+}
+.maincontent{
+    height: fit-content;
+    text-align: center;
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+.maincontent p{
+    color: blue;
+    float: right;
+
+}
+.donate{
+    width: 200px;
+    height: fit-content;
+    text-align: center;
+    margin-left: 570px;
+    margin-top: 25px;
+    padding: 10px;
+}
+.donate:hover{
+    transform: translateY(10px);
+    background-color: yellow;          
+}
+.donate:hover a{
+    color: black;
+    transition: 1s;
+}
+.donate_button{
+    color: sandybrown;
+    text-transform: uppercase;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-style: italic;
+}
+.container{
+    background-color: royalblue;
+}
+p a{
+    color: white;
+}
+a:hover{
+    background-color: springgreen;
+    color: tomato;
+    transform: translateX(5px);
+}
+footer{
+    background-color: pink;
+}
+footer p{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}    
+strong{
+    color: black;
+} 
+video{
+    width: 450px;
+    height: auto;
+}
+.para{
+    width: 450px;
+    height: fit-content;
+    background-color: white;
+    border: 3px solid red;
+    border-radius: 20%;
+}
+img{
+    width: 450px;
+}
